@@ -8,7 +8,7 @@ const messageFinal = document.getElementById('message-final');
 const figurePart = document.querySelectorAll('.figure-part');
 
 
-const mots = ['longboard','lezard','telephone','tokyo','encyclopedie','aspirateur', 'aviation', 'telescope', 'fourniture', 'recherche', 'javascript', 'attribut', 'aristocrate', 'bandit', 'synonyme' , 'philosophe', 'ordure', 'merveilleux' , 'soudainement'];
+const mots = ['tonyhawks', 'gtasanandreas', 'ashe', 'grind', 'kickflip', 'ollie', 'cj'];
 
 // Selectionner un mot pour jouer
 let motSelectionne = mots[ Math.floor(Math.random() * mots.length) ];// selectionner un mot random parmi la liste math.floor arrondi au plus bas
