@@ -15,10 +15,12 @@ body{
     overflow: hidden;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 .text{
     font-size: 25px;
     text-shadow: 2px 2px 2px greenyellow;
 }
+
 .mauvaise-lettres-content{
     font-size: 25px;
     font-weight: bold;
@@ -26,6 +28,7 @@ body{
     text-shadow: 3px 5px  black;
     
 }
+
 h1{
     margin: 20px 0 0;
     font-size: 50px;
@@ -61,12 +64,15 @@ h1{
     flex-direction: column;
     text-align: right;
 }
+
 .mauvaise-lettres-content p{
     margin: 0 0 5px;
 }
+
 .mauvaise-lettres-content span{
     font-size: 24px;
 }
+
 .mot{
     display: flex;
     position: absolute;
@@ -74,6 +80,7 @@ h1{
     left: 50%;
     transform: translateX(-50%);
 }
+
 .lettre{
     border-bottom: 6px solid black;
     border-radius: 6px;
@@ -86,6 +93,7 @@ h1{
     height: 50px;
     width: 50px;
 }
+
 .popup-content{
     background-color: black;
     opacity: 95%;
@@ -98,6 +106,7 @@ h1{
     align-items: center;
     justify-content: center;
 }
+
 .popup{
     background-color: #21364e;
     border-radius: 5px;
@@ -105,11 +114,13 @@ h1{
     padding: 20px;
     text-align: center;
 }
+
 .done{
     color: red;
     background-color: black;
     border-radius: 3px;
 }
+
 .popup button{
     cursor: pointer;
     background-color: #fff;
@@ -119,12 +130,15 @@ h1{
     padding: 10px 20px;
     font-size: 16px;
 }
+
 .popup button:active{
     transform: scale(0.98);
 }
+
 .popup button:focus{
     outline: 0;
 }
+
 .notification-content{
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 10px 10px 0 0;
@@ -133,6 +147,7 @@ h1{
     bottom: -80px;
     transition: transform 0.3 ease-in-out;/*transiton plus lente*/
 }
+
 .notification-content.afficher{
     transform: translateY(-80px);
 }
