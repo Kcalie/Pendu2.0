@@ -8,10 +8,10 @@ const messageFinal = document.getElementById('message-final');
 const figurePart = document.querySelectorAll('.figure-part');
 
 
-const mots = ['tonyhawks', 'gtasanandreas', 'ashe', 'grind', 'kickflip', 'ollie', 'cj'];
+const mots = ['tonyhawks', 'gtasanandreas', 'ashe', 'grind', 'kickflip', 'ollie', 'carl', 'Sylvanas', 'lossantos', 'vercetti', 'chorizo', 'chocolat', 'pizza'];
 
 // Selectionner un mot pour jouer
-let motSelectionne = mots[ Math.floor(Math.random() * mots.length) ];// selectionner un mot random parmi la liste math.floor arrondi au plus bas
+let motSelectionne = mots[ Math.floor(Math.random() * mots.length) ];// selectionner un mot random parmi la liste, math.floor arrondi au plus bas
 
 // lettres mauvaises ou dans le mot a trouver
 
